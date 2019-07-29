@@ -6,9 +6,10 @@ by Deniz Adalar (me@dadalar.net)
 
 Demo reader application which lets users to view posts and their details. The application has 2 pages as can be seen below.
 
-![](Simulator_Screen_Shot_-_iPhone_X_-_2019-04-07_at_23-f66294b5-1073-4429-b89e-618b0d416cb9.05.34.png)
-
-![](Simulator_Screen_Shot_-_iPhone_X_-_2019-04-07_at_10-1cce6260-4914-4fb3-8a8f-6276d4f1462b.02.52.png)
+<p>
+<img src="Simulator_Screen_Shot_-_iPhone_X_-_2019-04-07_at_23-f66294b5-1073-4429-b89e-618b0d416cb9.05.34.png" width="280">
+<img src="Simulator_Screen_Shot_-_iPhone_X_-_2019-04-07_at_10-1cce6260-4914-4fb3-8a8f-6276d4f1462b.02.52.png" width="280">
+</p>
 
 ## Features
 
