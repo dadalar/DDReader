@@ -7,13 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		998980ACE36C168E46C798C5 /* Pods_DDReaderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB295F47E3FC9EE4CFE962E7 /* Pods_DDReaderUITests.framework */; };
+		B69B156D76D4F59F2308E620 /* Pods_DDReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F68BBCBC004A1C29AF793C /* Pods_DDReader.framework */; };
+		C89EE046F328EC2F232DB5FE /* Pods_DDReaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07636C456F598627DC53F1FF /* Pods_DDReaderTests.framework */; };
 		FB2D1939225795630054A8B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D1938225795630054A8B2 /* AppDelegate.swift */; };
-		FB2D193B225795630054A8B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D193A225795630054A8B2 /* ViewController.swift */; };
-		FB2D193E225795630054A8B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB2D193C225795630054A8B2 /* Main.storyboard */; };
 		FB2D1940225795640054A8B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB2D193F225795640054A8B2 /* Assets.xcassets */; };
 		FB2D1943225795640054A8B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB2D1941225795640054A8B2 /* LaunchScreen.storyboard */; };
-		FB2D194E225795640054A8B2 /* DDReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D194D225795640054A8B2 /* DDReaderTests.swift */; };
 		FB2D1959225795640054A8B2 /* DDReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D1958225795640054A8B2 /* DDReaderUITests.swift */; };
+		FB2D1969225799D60054A8B2 /* PostsServicing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D1968225799D60054A8B2 /* PostsServicing.swift */; };
+		FB2D196C22579C600054A8B2 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D196B22579C600054A8B2 /* Post.swift */; };
+		FB2D196E22579CAF0054A8B2 /* PostsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D196D22579CAF0054A8B2 /* PostsService.swift */; };
+		FB2D197322579E000054A8B2 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D197222579E000054A8B2 /* PostsViewController.swift */; };
+		FB2D197522579E4B0054A8B2 /* PostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D197422579E4B0054A8B2 /* PostsViewModel.swift */; };
+		FB2D197E2258B1C60054A8B2 /* PostsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D197D2258B1C60054A8B2 /* PostsTests.swift */; };
+		FB2D19852258BAC90054A8B2 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D19842258BAC90054A8B2 /* PostTableViewCell.swift */; };
+		FB2D19892258BF090054A8B2 /* PostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D19882258BF090054A8B2 /* PostDetailViewController.swift */; };
+		FB2D198C2258BF9B0054A8B2 /* PostTableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D198B2258BF9B0054A8B2 /* PostTableViewCellModel.swift */; };
+		FB2D198E2258C05C0054A8B2 /* PostTableViewCellModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D198D2258C05C0054A8B2 /* PostTableViewCellModelTests.swift */; };
+		FB2D19912258C3C20054A8B2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D19902258C3C20054A8B2 /* User.swift */; };
+		FB2D19932258C41F0054A8B2 /* UsersServicing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D19922258C41F0054A8B2 /* UsersServicing.swift */; };
+		FB2D19952258C43C0054A8B2 /* UsersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D19942258C43C0054A8B2 /* UsersService.swift */; };
+		FB2D19982258C7840054A8B2 /* PostDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D19972258C7840054A8B2 /* PostDetailViewModel.swift */; };
+		FB2D199B2258CA740054A8B2 /* PostDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D199A2258CA740054A8B2 /* PostDetailModel.swift */; };
+		FB2D199E225914400054A8B2 /* ManagedDataServicing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D199D225914400054A8B2 /* ManagedDataServicing.swift */; };
+		FB2D19A0225914CD0054A8B2 /* ManagedDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D199F225914CD0054A8B2 /* ManagedDataService.swift */; };
+		FB2D19A222591F820054A8B2 /* PostDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D19A122591F820054A8B2 /* PostDetail.swift */; };
+		FB2D19A4225922A80054A8B2 /* DisplayableError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D19A3225922A80054A8B2 /* DisplayableError.swift */; };
+		FB2D19A62259351F0054A8B2 /* Rx+DisplayableError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D19A52259351F0054A8B2 /* Rx+DisplayableError.swift */; };
+		FB2D19A8225935EC0054A8B2 /* PresenterBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D19A7225935EC0054A8B2 /* PresenterBinding.swift */; };
+		FB2D19AD22593A8D0054A8B2 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D19AC22593A8D0054A8B2 /* Comment.swift */; };
+		FB2D19AF22593AC00054A8B2 /* CommentsServicing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D19AE22593AC00054A8B2 /* CommentsServicing.swift */; };
+		FB2D19B122593AF60054A8B2 /* CommentsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D19B022593AF60054A8B2 /* CommentsService.swift */; };
+		FB2D19B42259574E0054A8B2 /* UIScrollView+ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D19B32259574E0054A8B2 /* UIScrollView+ContentView.swift */; };
+		FB2D19B72259F7A20054A8B2 /* PostDetailModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D19B52259F49A0054A8B2 /* PostDetailModelTests.swift */; };
+		FB2D19B9225A00510054A8B2 /* DislayErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D19B8225A00510054A8B2 /* DislayErrorTests.swift */; };
+		FB2D19BB225A04250054A8B2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D19BA225A04250054A8B2 /* main.swift */; };
+		FB2D19BF225A07860054A8B2 /* CacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D19BE225A07860054A8B2 /* CacheService.swift */; };
+		FB2D19C1225A0AE80054A8B2 /* CacheServicing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D19C0225A0AE80054A8B2 /* CacheServicing.swift */; };
+		FB2D19C3225A14AD0054A8B2 /* CachedPostsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D19C2225A14AD0054A8B2 /* CachedPostsResponse.swift */; };
+		FB2D19C5225A1A7F0054A8B2 /* TableViewRefreshControlBinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D19C4225A1A7F0054A8B2 /* TableViewRefreshControlBinder.swift */; };
+		FB2D19C7225A31F30054A8B2 /* MockManagedDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D19C6225A31F30054A8B2 /* MockManagedDataService.swift */; };
+		FB2D19C9225A6DEA0054A8B2 /* RxCocoaURLErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D19C8225A6DEA0054A8B2 /* RxCocoaURLErrorTests.swift */; };
+		FB2D19CB225A8AA80054A8B2 /* PostsServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D19CA225A8AA80054A8B2 /* PostsServiceTests.swift */; };
+		FB2D19D0225A8B1F0054A8B2 /* comments in Resources */ = {isa = PBXBuildFile; fileRef = FB2D19CD225A8B1F0054A8B2 /* comments */; };
+		FB2D19D1225A8B1F0054A8B2 /* posts in Resources */ = {isa = PBXBuildFile; fileRef = FB2D19CE225A8B1F0054A8B2 /* posts */; };
+		FB2D19D2225A8B1F0054A8B2 /* users in Resources */ = {isa = PBXBuildFile; fileRef = FB2D19CF225A8B1F0054A8B2 /* users */; };
+		FB2D19D5225A8DB30054A8B2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D19D4225A8DB30054A8B2 /* Constants.swift */; };
+		FB2D19D8225A96820054A8B2 /* NetworkServicing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D19D7225A96820054A8B2 /* NetworkServicing.swift */; };
+		FB2D19DA225A98630054A8B2 /* MockNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D19D9225A98630054A8B2 /* MockNetworkService.swift */; };
+		FB2D19DC225A99210054A8B2 /* UsersServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D19DB225A99210054A8B2 /* UsersServiceTests.swift */; };
+		FB2D19DE225A9B820054A8B2 /* CommentsServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D19DD225A9B820054A8B2 /* CommentsServiceTests.swift */; };
+		FB2D19E0225A9BE10054A8B2 /* CacheServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D19DF225A9BE10054A8B2 /* CacheServiceTests.swift */; };
+		FB2D19E2225A9EDE0054A8B2 /* ManagedDataServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D19E1225A9EDE0054A8B2 /* ManagedDataServiceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +79,73 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07636C456F598627DC53F1FF /* Pods_DDReaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDReaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F5B7BE7E381A81A3400CAF2 /* Pods-DDReader-DDReaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDReader-DDReaderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DDReader-DDReaderTests/Pods-DDReader-DDReaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E34B05944D0F2F711428121 /* Pods-DDReaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDReaderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DDReaderTests/Pods-DDReaderTests.release.xcconfig"; sourceTree = "<group>"; };
+		5D17CC25804DF214F911F2EF /* Pods-DDReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-DDReader/Pods-DDReader.release.xcconfig"; sourceTree = "<group>"; };
+		5F9D141D2629638FC517030A /* Pods_DDReader_DDReaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDReader_DDReaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67154C0B19573C3C3F384A5F /* Pods-DDReader-DDReaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDReader-DDReaderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DDReader-DDReaderTests/Pods-DDReader-DDReaderTests.release.xcconfig"; sourceTree = "<group>"; };
+		70F68BBCBC004A1C29AF793C /* Pods_DDReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7775FFC3B3BFB3A5665E4C44 /* Pods-DDReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DDReader/Pods-DDReader.debug.xcconfig"; sourceTree = "<group>"; };
+		87BD93F64FD66CD9C26AEAF5 /* Pods-DDReaderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDReaderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DDReaderUITests/Pods-DDReaderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C873ED23CEE5644928630119 /* Pods-DDReaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDReaderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DDReaderTests/Pods-DDReaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCFE8807DDA815CA3C4E88EA /* Pods-DDReaderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDReaderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DDReaderUITests/Pods-DDReaderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB295F47E3FC9EE4CFE962E7 /* Pods_DDReaderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDReaderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB2D1935225795630054A8B2 /* DDReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB2D1938225795630054A8B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FB2D193A225795630054A8B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FB2D193D225795630054A8B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB2D193F225795640054A8B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB2D1942225795640054A8B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB2D1944225795640054A8B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB2D1949225795640054A8B2 /* DDReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB2D194D225795640054A8B2 /* DDReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDReaderTests.swift; sourceTree = "<group>"; };
 		FB2D194F225795640054A8B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB2D1954225795640054A8B2 /* DDReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB2D1958225795640054A8B2 /* DDReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDReaderUITests.swift; sourceTree = "<group>"; };
 		FB2D195A225795640054A8B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB2D1968225799D60054A8B2 /* PostsServicing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsServicing.swift; sourceTree = "<group>"; };
+		FB2D196B22579C600054A8B2 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		FB2D196D22579CAF0054A8B2 /* PostsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsService.swift; sourceTree = "<group>"; };
+		FB2D197222579E000054A8B2 /* PostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
+		FB2D197422579E4B0054A8B2 /* PostsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewModel.swift; sourceTree = "<group>"; };
+		FB2D197D2258B1C60054A8B2 /* PostsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTests.swift; sourceTree = "<group>"; };
+		FB2D19842258BAC90054A8B2 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		FB2D19882258BF090054A8B2 /* PostDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailViewController.swift; sourceTree = "<group>"; };
+		FB2D198B2258BF9B0054A8B2 /* PostTableViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCellModel.swift; sourceTree = "<group>"; };
+		FB2D198D2258C05C0054A8B2 /* PostTableViewCellModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCellModelTests.swift; sourceTree = "<group>"; };
+		FB2D19902258C3C20054A8B2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FB2D19922258C41F0054A8B2 /* UsersServicing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersServicing.swift; sourceTree = "<group>"; };
+		FB2D19942258C43C0054A8B2 /* UsersService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersService.swift; sourceTree = "<group>"; };
+		FB2D19972258C7840054A8B2 /* PostDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailViewModel.swift; sourceTree = "<group>"; };
+		FB2D199A2258CA740054A8B2 /* PostDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailModel.swift; sourceTree = "<group>"; };
+		FB2D199D225914400054A8B2 /* ManagedDataServicing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedDataServicing.swift; sourceTree = "<group>"; };
+		FB2D199F225914CD0054A8B2 /* ManagedDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedDataService.swift; sourceTree = "<group>"; };
+		FB2D19A122591F820054A8B2 /* PostDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetail.swift; sourceTree = "<group>"; };
+		FB2D19A3225922A80054A8B2 /* DisplayableError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayableError.swift; sourceTree = "<group>"; };
+		FB2D19A52259351F0054A8B2 /* Rx+DisplayableError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rx+DisplayableError.swift"; sourceTree = "<group>"; };
+		FB2D19A7225935EC0054A8B2 /* PresenterBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterBinding.swift; sourceTree = "<group>"; };
+		FB2D19AC22593A8D0054A8B2 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		FB2D19AE22593AC00054A8B2 /* CommentsServicing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsServicing.swift; sourceTree = "<group>"; };
+		FB2D19B022593AF60054A8B2 /* CommentsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsService.swift; sourceTree = "<group>"; };
+		FB2D19B32259574E0054A8B2 /* UIScrollView+ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+ContentView.swift"; sourceTree = "<group>"; };
+		FB2D19B52259F49A0054A8B2 /* PostDetailModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailModelTests.swift; sourceTree = "<group>"; };
+		FB2D19B8225A00510054A8B2 /* DislayErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DislayErrorTests.swift; sourceTree = "<group>"; };
+		FB2D19BA225A04250054A8B2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FB2D19BE225A07860054A8B2 /* CacheService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheService.swift; sourceTree = "<group>"; };
+		FB2D19C0225A0AE80054A8B2 /* CacheServicing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheServicing.swift; sourceTree = "<group>"; };
+		FB2D19C2225A14AD0054A8B2 /* CachedPostsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedPostsResponse.swift; sourceTree = "<group>"; };
+		FB2D19C4225A1A7F0054A8B2 /* TableViewRefreshControlBinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewRefreshControlBinder.swift; sourceTree = "<group>"; };
+		FB2D19C6225A31F30054A8B2 /* MockManagedDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockManagedDataService.swift; sourceTree = "<group>"; };
+		FB2D19C8225A6DEA0054A8B2 /* RxCocoaURLErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaURLErrorTests.swift; sourceTree = "<group>"; };
+		FB2D19CA225A8AA80054A8B2 /* PostsServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsServiceTests.swift; sourceTree = "<group>"; };
+		FB2D19CD225A8B1F0054A8B2 /* comments */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = comments; sourceTree = "<group>"; };
+		FB2D19CE225A8B1F0054A8B2 /* posts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = posts; sourceTree = "<group>"; };
+		FB2D19CF225A8B1F0054A8B2 /* users */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = users; sourceTree = "<group>"; };
+		FB2D19D4225A8DB30054A8B2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FB2D19D7225A96820054A8B2 /* NetworkServicing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServicing.swift; sourceTree = "<group>"; };
+		FB2D19D9225A98630054A8B2 /* MockNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkService.swift; sourceTree = "<group>"; };
+		FB2D19DB225A99210054A8B2 /* UsersServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersServiceTests.swift; sourceTree = "<group>"; };
+		FB2D19DD225A9B820054A8B2 /* CommentsServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsServiceTests.swift; sourceTree = "<group>"; };
+		FB2D19DF225A9BE10054A8B2 /* CacheServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheServiceTests.swift; sourceTree = "<group>"; };
+		FB2D19E1225A9EDE0054A8B2 /* ManagedDataServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedDataServiceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +153,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B69B156D76D4F59F2308E620 /* Pods_DDReader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +161,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C89EE046F328EC2F232DB5FE /* Pods_DDReaderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +169,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				998980ACE36C168E46C798C5 /* Pods_DDReaderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A75AEB73207893FC8C2D6C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7775FFC3B3BFB3A5665E4C44 /* Pods-DDReader.debug.xcconfig */,
+				5D17CC25804DF214F911F2EF /* Pods-DDReader.release.xcconfig */,
+				C873ED23CEE5644928630119 /* Pods-DDReaderTests.debug.xcconfig */,
+				3E34B05944D0F2F711428121 /* Pods-DDReaderTests.release.xcconfig */,
+				CCFE8807DDA815CA3C4E88EA /* Pods-DDReaderUITests.debug.xcconfig */,
+				87BD93F64FD66CD9C26AEAF5 /* Pods-DDReaderUITests.release.xcconfig */,
+				2F5B7BE7E381A81A3400CAF2 /* Pods-DDReader-DDReaderTests.debug.xcconfig */,
+				67154C0B19573C3C3F384A5F /* Pods-DDReader-DDReaderTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5E8BC868E6EBF49F5E340C61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70F68BBCBC004A1C29AF793C /* Pods_DDReader.framework */,
+				07636C456F598627DC53F1FF /* Pods_DDReaderTests.framework */,
+				DB295F47E3FC9EE4CFE962E7 /* Pods_DDReaderUITests.framework */,
+				5F9D141D2629638FC517030A /* Pods_DDReader_DDReaderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FB2D192C225795630054A8B2 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +209,8 @@
 				FB2D194C225795640054A8B2 /* DDReaderTests */,
 				FB2D1957225795640054A8B2 /* DDReaderUITests */,
 				FB2D1936225795630054A8B2 /* Products */,
+				0A75AEB73207893FC8C2D6C2 /* Pods */,
+				5E8BC868E6EBF49F5E340C61 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +227,11 @@
 		FB2D1937225795630054A8B2 /* DDReader */ = {
 			isa = PBXGroup;
 			children = (
+				FB2D19762257B0B50054A8B2 /* Shared */,
+				FB2D1967225799CA0054A8B2 /* Services */,
+				FB2D1966225798F00054A8B2 /* Screens */,
 				FB2D1938225795630054A8B2 /* AppDelegate.swift */,
-				FB2D193A225795630054A8B2 /* ViewController.swift */,
-				FB2D193C225795630054A8B2 /* Main.storyboard */,
+				FB2D19BA225A04250054A8B2 /* main.swift */,
 				FB2D193F225795640054A8B2 /* Assets.xcassets */,
 				FB2D1941225795640054A8B2 /* LaunchScreen.storyboard */,
 				FB2D1944225795640054A8B2 /* Info.plist */,
@@ -110,7 +242,18 @@
 		FB2D194C225795640054A8B2 /* DDReaderTests */ = {
 			isa = PBXGroup;
 			children = (
-				FB2D194D225795640054A8B2 /* DDReaderTests.swift */,
+				FB2D19CC225A8B120054A8B2 /* MockServiceData */,
+				FB2D197D2258B1C60054A8B2 /* PostsTests.swift */,
+				FB2D198D2258C05C0054A8B2 /* PostTableViewCellModelTests.swift */,
+				FB2D19B52259F49A0054A8B2 /* PostDetailModelTests.swift */,
+				FB2D19B8225A00510054A8B2 /* DislayErrorTests.swift */,
+				FB2D19C8225A6DEA0054A8B2 /* RxCocoaURLErrorTests.swift */,
+				FB2D19D9225A98630054A8B2 /* MockNetworkService.swift */,
+				FB2D19CA225A8AA80054A8B2 /* PostsServiceTests.swift */,
+				FB2D19DB225A99210054A8B2 /* UsersServiceTests.swift */,
+				FB2D19DD225A9B820054A8B2 /* CommentsServiceTests.swift */,
+				FB2D19DF225A9BE10054A8B2 /* CacheServiceTests.swift */,
+				FB2D19E1225A9EDE0054A8B2 /* ManagedDataServiceTests.swift */,
 				FB2D194F225795640054A8B2 /* Info.plist */,
 			);
 			path = DDReaderTests;
@@ -125,6 +268,211 @@
 			path = DDReaderUITests;
 			sourceTree = "<group>";
 		};
+		FB2D1966225798F00054A8B2 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				FB2D196F22579DD60054A8B2 /* Posts */,
+				FB2D19862258BEC20054A8B2 /* PostDetail */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		FB2D1967225799CA0054A8B2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FB2D19BD225A07740054A8B2 /* CacheService */,
+				FB2D199C2259141A0054A8B2 /* ManagedDataService */,
+				FB2D196A22579C4F0054A8B2 /* PostsService */,
+				FB2D198F2258C3A70054A8B2 /* UsersService */,
+				FB2D19AB22593A7D0054A8B2 /* CommentsService */,
+				FB2D19D6225A96760054A8B2 /* NetworkService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FB2D196A22579C4F0054A8B2 /* PostsService */ = {
+			isa = PBXGroup;
+			children = (
+				FB2D196B22579C600054A8B2 /* Post.swift */,
+				FB2D1968225799D60054A8B2 /* PostsServicing.swift */,
+				FB2D196D22579CAF0054A8B2 /* PostsService.swift */,
+			);
+			path = PostsService;
+			sourceTree = "<group>";
+		};
+		FB2D196F22579DD60054A8B2 /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+				FB2D198A2258BF900054A8B2 /* Model */,
+				FB2D197022579DE10054A8B2 /* View */,
+				FB2D197122579DEC0054A8B2 /* ViewModel */,
+			);
+			path = Posts;
+			sourceTree = "<group>";
+		};
+		FB2D197022579DE10054A8B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FB2D197222579E000054A8B2 /* PostsViewController.swift */,
+				FB2D19842258BAC90054A8B2 /* PostTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FB2D197122579DEC0054A8B2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FB2D197422579E4B0054A8B2 /* PostsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FB2D19762257B0B50054A8B2 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				FB2D19D3225A8DA90054A8B2 /* Constants */,
+				FB2D19B2225957380054A8B2 /* Utility */,
+				FB2D19AA225937490054A8B2 /* Binders */,
+				FB2D19A9225935FB0054A8B2 /* Error Handling */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		FB2D19862258BEC20054A8B2 /* PostDetail */ = {
+			isa = PBXGroup;
+			children = (
+				FB2D19992258CA6B0054A8B2 /* Model */,
+				FB2D19872258BEFB0054A8B2 /* View */,
+				FB2D19962258C7730054A8B2 /* ViewModel */,
+			);
+			path = PostDetail;
+			sourceTree = "<group>";
+		};
+		FB2D19872258BEFB0054A8B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FB2D19882258BF090054A8B2 /* PostDetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FB2D198A2258BF900054A8B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB2D198B2258BF9B0054A8B2 /* PostTableViewCellModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB2D198F2258C3A70054A8B2 /* UsersService */ = {
+			isa = PBXGroup;
+			children = (
+				FB2D19902258C3C20054A8B2 /* User.swift */,
+				FB2D19922258C41F0054A8B2 /* UsersServicing.swift */,
+				FB2D19942258C43C0054A8B2 /* UsersService.swift */,
+			);
+			path = UsersService;
+			sourceTree = "<group>";
+		};
+		FB2D19962258C7730054A8B2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FB2D19972258C7840054A8B2 /* PostDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FB2D19992258CA6B0054A8B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB2D199A2258CA740054A8B2 /* PostDetailModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB2D199C2259141A0054A8B2 /* ManagedDataService */ = {
+			isa = PBXGroup;
+			children = (
+				FB2D19C2225A14AD0054A8B2 /* CachedPostsResponse.swift */,
+				FB2D19A122591F820054A8B2 /* PostDetail.swift */,
+				FB2D199D225914400054A8B2 /* ManagedDataServicing.swift */,
+				FB2D199F225914CD0054A8B2 /* ManagedDataService.swift */,
+				FB2D19C6225A31F30054A8B2 /* MockManagedDataService.swift */,
+			);
+			path = ManagedDataService;
+			sourceTree = "<group>";
+		};
+		FB2D19A9225935FB0054A8B2 /* Error Handling */ = {
+			isa = PBXGroup;
+			children = (
+				FB2D19A3225922A80054A8B2 /* DisplayableError.swift */,
+				FB2D19A52259351F0054A8B2 /* Rx+DisplayableError.swift */,
+			);
+			path = "Error Handling";
+			sourceTree = "<group>";
+		};
+		FB2D19AA225937490054A8B2 /* Binders */ = {
+			isa = PBXGroup;
+			children = (
+				FB2D19A7225935EC0054A8B2 /* PresenterBinding.swift */,
+				FB2D19C4225A1A7F0054A8B2 /* TableViewRefreshControlBinder.swift */,
+			);
+			path = Binders;
+			sourceTree = "<group>";
+		};
+		FB2D19AB22593A7D0054A8B2 /* CommentsService */ = {
+			isa = PBXGroup;
+			children = (
+				FB2D19AC22593A8D0054A8B2 /* Comment.swift */,
+				FB2D19AE22593AC00054A8B2 /* CommentsServicing.swift */,
+				FB2D19B022593AF60054A8B2 /* CommentsService.swift */,
+			);
+			path = CommentsService;
+			sourceTree = "<group>";
+		};
+		FB2D19B2225957380054A8B2 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				FB2D19B32259574E0054A8B2 /* UIScrollView+ContentView.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		FB2D19BD225A07740054A8B2 /* CacheService */ = {
+			isa = PBXGroup;
+			children = (
+				FB2D19C0225A0AE80054A8B2 /* CacheServicing.swift */,
+				FB2D19BE225A07860054A8B2 /* CacheService.swift */,
+			);
+			path = CacheService;
+			sourceTree = "<group>";
+		};
+		FB2D19CC225A8B120054A8B2 /* MockServiceData */ = {
+			isa = PBXGroup;
+			children = (
+				FB2D19CD225A8B1F0054A8B2 /* comments */,
+				FB2D19CE225A8B1F0054A8B2 /* posts */,
+				FB2D19CF225A8B1F0054A8B2 /* users */,
+			);
+			path = MockServiceData;
+			sourceTree = "<group>";
+		};
+		FB2D19D3225A8DA90054A8B2 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				FB2D19D4225A8DB30054A8B2 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		FB2D19D6225A96760054A8B2 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				FB2D19D7225A96820054A8B2 /* NetworkServicing.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +480,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB2D195D225795640054A8B2 /* Build configuration list for PBXNativeTarget "DDReader" */;
 			buildPhases = (
+				1A81DD143DE96322C93B034E /* [CP] Check Pods Manifest.lock */,
+				FB2D19BC225A05430054A8B2 /* SwiftLint */,
 				FB2D1931225795630054A8B2 /* Sources */,
 				FB2D1932225795630054A8B2 /* Frameworks */,
 				FB2D1933225795630054A8B2 /* Resources */,
+				7A12C4D4365809B0566D3EC2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,9 +500,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB2D1960225795640054A8B2 /* Build configuration list for PBXNativeTarget "DDReaderTests" */;
 			buildPhases = (
+				8D1A410F560BB7574E69BCE9 /* [CP] Check Pods Manifest.lock */,
 				FB2D1945225795640054A8B2 /* Sources */,
 				FB2D1946225795640054A8B2 /* Frameworks */,
 				FB2D1947225795640054A8B2 /* Resources */,
+				BA5BA7812B83858F745098EC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,9 +520,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB2D1963225795640054A8B2 /* Build configuration list for PBXNativeTarget "DDReaderUITests" */;
 			buildPhases = (
+				BE6C2C3E13A799D869D79685 /* [CP] Check Pods Manifest.lock */,
 				FB2D1950225795640054A8B2 /* Sources */,
 				FB2D1951225795640054A8B2 /* Frameworks */,
 				FB2D1952225795640054A8B2 /* Resources */,
+				23D3A8308438EDF126A0C07D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,6 +551,7 @@
 					};
 					FB2D1948225795640054A8B2 = {
 						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
 						TestTargetID = FB2D1934225795630054A8B2;
 					};
 					FB2D1953225795640054A8B2 = {
@@ -231,7 +587,6 @@
 			files = (
 				FB2D1943225795640054A8B2 /* LaunchScreen.storyboard in Resources */,
 				FB2D1940225795640054A8B2 /* Assets.xcassets in Resources */,
-				FB2D193E225795630054A8B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +594,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB2D19D2225A8B1F0054A8B2 /* users in Resources */,
+				FB2D19D1225A8B1F0054A8B2 /* posts in Resources */,
+				FB2D19D0225A8B1F0054A8B2 /* comments in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +609,204 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A81DD143DE96322C93B034E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DDReader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23D3A8308438EDF126A0C07D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DDReaderUITests/Pods-DDReaderUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DDReaderUITests/Pods-DDReaderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A12C4D4365809B0566D3EC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DDReader/Pods-DDReader-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DDReader/Pods-DDReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D1A410F560BB7574E69BCE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DDReaderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA5BA7812B83858F745098EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DDReaderTests/Pods-DDReaderTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DDReaderTests/Pods-DDReaderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE6C2C3E13A799D869D79685 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DDReaderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB2D19BC225A05430054A8B2 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint autocorrect --path ./DDReader/\n${PODS_ROOT}/SwiftLint/swiftlint --path ./DDReader/\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FB2D1931225795630054A8B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB2D193B225795630054A8B2 /* ViewController.swift in Sources */,
+				FB2D197322579E000054A8B2 /* PostsViewController.swift in Sources */,
+				FB2D196E22579CAF0054A8B2 /* PostsService.swift in Sources */,
+				FB2D19952258C43C0054A8B2 /* UsersService.swift in Sources */,
+				FB2D1969225799D60054A8B2 /* PostsServicing.swift in Sources */,
+				FB2D19932258C41F0054A8B2 /* UsersServicing.swift in Sources */,
+				FB2D19A0225914CD0054A8B2 /* ManagedDataService.swift in Sources */,
+				FB2D19C1225A0AE80054A8B2 /* CacheServicing.swift in Sources */,
+				FB2D19852258BAC90054A8B2 /* PostTableViewCell.swift in Sources */,
+				FB2D199E225914400054A8B2 /* ManagedDataServicing.swift in Sources */,
+				FB2D19D5225A8DB30054A8B2 /* Constants.swift in Sources */,
+				FB2D19D8225A96820054A8B2 /* NetworkServicing.swift in Sources */,
+				FB2D19892258BF090054A8B2 /* PostDetailViewController.swift in Sources */,
+				FB2D19A4225922A80054A8B2 /* DisplayableError.swift in Sources */,
+				FB2D19AD22593A8D0054A8B2 /* Comment.swift in Sources */,
+				FB2D19C3225A14AD0054A8B2 /* CachedPostsResponse.swift in Sources */,
 				FB2D1939225795630054A8B2 /* AppDelegate.swift in Sources */,
+				FB2D19BF225A07860054A8B2 /* CacheService.swift in Sources */,
+				FB2D19C7225A31F30054A8B2 /* MockManagedDataService.swift in Sources */,
+				FB2D19A8225935EC0054A8B2 /* PresenterBinding.swift in Sources */,
+				FB2D19A222591F820054A8B2 /* PostDetail.swift in Sources */,
+				FB2D196C22579C600054A8B2 /* Post.swift in Sources */,
+				FB2D19B122593AF60054A8B2 /* CommentsService.swift in Sources */,
+				FB2D19BB225A04250054A8B2 /* main.swift in Sources */,
+				FB2D19A62259351F0054A8B2 /* Rx+DisplayableError.swift in Sources */,
+				FB2D199B2258CA740054A8B2 /* PostDetailModel.swift in Sources */,
+				FB2D19B42259574E0054A8B2 /* UIScrollView+ContentView.swift in Sources */,
+				FB2D197522579E4B0054A8B2 /* PostsViewModel.swift in Sources */,
+				FB2D198C2258BF9B0054A8B2 /* PostTableViewCellModel.swift in Sources */,
+				FB2D19912258C3C20054A8B2 /* User.swift in Sources */,
+				FB2D19C5225A1A7F0054A8B2 /* TableViewRefreshControlBinder.swift in Sources */,
+				FB2D19AF22593AC00054A8B2 /* CommentsServicing.swift in Sources */,
+				FB2D19982258C7840054A8B2 /* PostDetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +814,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB2D194E225795640054A8B2 /* DDReaderTests.swift in Sources */,
+				FB2D19E2225A9EDE0054A8B2 /* ManagedDataServiceTests.swift in Sources */,
+				FB2D19DC225A99210054A8B2 /* UsersServiceTests.swift in Sources */,
+				FB2D19B9225A00510054A8B2 /* DislayErrorTests.swift in Sources */,
+				FB2D19E0225A9BE10054A8B2 /* CacheServiceTests.swift in Sources */,
+				FB2D19DA225A98630054A8B2 /* MockNetworkService.swift in Sources */,
+				FB2D19C9225A6DEA0054A8B2 /* RxCocoaURLErrorTests.swift in Sources */,
+				FB2D197E2258B1C60054A8B2 /* PostsTests.swift in Sources */,
+				FB2D19CB225A8AA80054A8B2 /* PostsServiceTests.swift in Sources */,
+				FB2D19DE225A9B820054A8B2 /* CommentsServiceTests.swift in Sources */,
+				FB2D19B72259F7A20054A8B2 /* PostDetailModelTests.swift in Sources */,
+				FB2D198E2258C05C0054A8B2 /* PostTableViewCellModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +852,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FB2D193C225795630054A8B2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FB2D193D225795630054A8B2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FB2D1941225795640054A8B2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -363,7 +914,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -418,7 +969,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -430,6 +981,7 @@
 		};
 		FB2D195E225795640054A8B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7775FFC3B3BFB3A5665E4C44 /* Pods-DDReader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +1000,7 @@
 		};
 		FB2D195F225795640054A8B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D17CC25804DF214F911F2EF /* Pods-DDReader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,9 +1019,10 @@
 		};
 		FB2D1961225795640054A8B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C873ED23CEE5644928630119 /* Pods-DDReaderTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4232L5VHS7;
 				INFOPLIST_FILE = DDReaderTests/Info.plist;
@@ -479,6 +1033,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.dadalar.DDReaderTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DDReader.app/DDReader";
@@ -487,9 +1042,10 @@
 		};
 		FB2D1962225795640054A8B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E34B05944D0F2F711428121 /* Pods-DDReaderTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4232L5VHS7;
 				INFOPLIST_FILE = DDReaderTests/Info.plist;
@@ -508,8 +1064,8 @@
 		};
 		FB2D1964225795640054A8B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCFE8807DDA815CA3C4E88EA /* Pods-DDReaderUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4232L5VHS7;
 				INFOPLIST_FILE = DDReaderUITests/Info.plist;
@@ -528,8 +1084,8 @@
 		};
 		FB2D1965225795640054A8B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87BD93F64FD66CD9C26AEAF5 /* Pods-DDReaderUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4232L5VHS7;
 				INFOPLIST_FILE = DDReaderUITests/Info.plist;

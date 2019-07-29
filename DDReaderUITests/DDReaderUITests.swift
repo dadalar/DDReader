@@ -10,25 +10,50 @@ import XCTest
 
 class DDReaderUITests: XCTestCase {
 
-    override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-
-        // In UI tests it is usually best to stop immediately when a failure occurs.
-        continueAfterFailure = false
-
-        // UI tests must launch the application that they test. Doing this in setup will make sure it happens for each test method.
-        XCUIApplication().launch()
-
-        // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
+    func testViewingCachedData() {
+        let app = XCUIApplication()
+        app.launchEnvironment = ["UI_TESTING": "1"]
+        app.launch()
+        
+        // Mock data has cached data. Check if we are seeing all the labels
+        XCTAssert(app.staticTexts["Title 1"].exists)
+        XCTAssert(app.staticTexts["Body 1"].exists)
+        XCTAssert(app.staticTexts["Title 2"].exists)
+        XCTAssert(app.staticTexts["Body 2"].exists)
+        XCTAssert(app.staticTexts["Title 3"].exists)
+        XCTAssert(app.staticTexts["Body 3"].exists)
+        XCTAssert(app.staticTexts["You're viewing cached data"].exists)
+        
+        app.cells.firstMatch.tap() // Go into detail screen
+        
+        // Check detail screen texts
+        let titleLabel = app.staticTexts["titleLabel"]
+        XCTAssert(titleLabel.exists)
+        XCTAssertEqual(titleLabel.label, "sunt aut facere repellat provident occaecati excepturi optio reprehenderit")
+        
+        let bodyLabel = app.staticTexts["bodyLabel"]
+        XCTAssert(bodyLabel.exists)
+        XCTAssertEqual(bodyLabel.label, "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto")
+        
+        let authorLabel = app.staticTexts["authorNameLabel"]
+        XCTAssert(authorLabel.exists)
+        XCTAssertEqual(authorLabel.label, "Deniz Adalar\n@dadalar")
+        
+        let commentCountLabel = app.staticTexts["commentCountLabel"]
+        XCTAssert(commentCountLabel.exists)
+        XCTAssertEqual(commentCountLabel.label, "Comments: 0")
     }
 
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
+    func testNonCachedError() {
+        let app = XCUIApplication()
+        app.launchEnvironment = ["UI_TESTING": "1",
+                                 "UI_TESTING_ERROR": "1"]
+        app.launch()
 
-    func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        XCTAssertEqual(app.cells.count, 0) // No data, zero cell
+        let alert = app.alerts["Mock Error Title"]
+        XCTAssert(alert.exists)
+        XCTAssert(alert.staticTexts["Mock Error Message"].exists)
     }
-
+    
 }
